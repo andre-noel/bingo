@@ -1,0 +1,25 @@
+* {
+  text-align: center;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+table {
+  margin: auto;
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #000;
+  width: 3.5cm;
+  height: 3.5cm;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+td img {
+  max-width: 70%;
+}
+.brk {
+  page-break-after: always;
+}
