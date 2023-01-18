@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+#resultado {
+  font-size: 3em;
+  height: 300px;
+  width: 900px;
+  line-height: 300px;
+  border: 1px solid #999;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+.rodando {
+  background: url(img/sorteio-globo.gif) no-repeat center center;
+}
+#sortear {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 5px 20px;
+  border-radius: 7px;
+  background: #eee;
+  border: 1px solid #999;
+}
+#sorteados {
+  position: absolute;
+  top: 150px;
+  right:30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  width: 300px;
+  height: 700px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  overflow: auto;
+}
